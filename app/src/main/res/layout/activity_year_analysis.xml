@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.yearAnalysisActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:theme="@style/ToolbarThemeWhite"
+        android:id="@+id/toolbar_year"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/skyblue"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/toolbar_year"
+        android:id="@+id/cardview_year_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="6dp">
+
+
+        <Spinner
+            android:id="@+id/category_year_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart_Yview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cardview_year_analysis"
+        android:layout_marginTop="7dp" />
+
+</RelativeLayout>

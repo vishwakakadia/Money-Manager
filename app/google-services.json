@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1014104531370",
+    "project_id": "incomeexpense-326fe",
+    "storage_bucket": "incomeexpense-326fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014104531370:android:ec5e13d8571e9efce1cbd3",
+        "android_client_info": {
+          "package_name": "com.example.incomeexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014104531370-4oqaue7mtl5mi68mhv9ml0mdnm0oj276.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.incomeexpense",
+            "certificate_hash": "22b6ea84f31364673231065f72c8728fd6694b70"
+          }
+        },
+        {
+          "client_id": "1014104531370-e7suvv1r5ogkdaf0aeb16e6lkobum8ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnHViKlY_1Zj4uB8k1J8-8OI8G1uvTlIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014104531370-e7suvv1r5ogkdaf0aeb16e6lkobum8ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

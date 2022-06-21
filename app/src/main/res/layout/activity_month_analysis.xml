@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MonthAnalysisActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:theme="@style/ToolbarThemeWhite"
+        android:id="@+id/toolbar_month"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/skyblue"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_analysis"
+        android:layout_below="@+id/toolbar_month"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabIndicator="@color/white"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="2dp"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/black"
+        android:background="@color/skyblue" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabLayout_analysis"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</RelativeLayout>

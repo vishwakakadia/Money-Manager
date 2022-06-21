@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ExpenseMonthAnalysis">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_Eanalysis"
+        app:cardCornerRadius="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:elevation="5dp">
+
+
+        <Spinner
+            android:id="@+id/month_Eselect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart_Eview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cardview_Eanalysis"
+        android:layout_marginTop="7dp" />
+
+</RelativeLayout>

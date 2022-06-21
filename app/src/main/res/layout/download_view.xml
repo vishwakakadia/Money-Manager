@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="401dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@color/skyblue"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Export Report"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/download_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="Title"
+            android:textColor="#595858"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="Financial Statement"
+            android:textColor="#595858"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/download_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="Month"
+            android:textColor="#595858"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/month_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:gravity="right|center"
+            android:overlapAnchor="false"
+            android:spinnerMode="dropdown"
+            android:drawSelectorOnTop="false"
+            app:ms_dropdown_max_height="0dp"
+            android:textColor="#595858" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/download_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="Category"
+            android:textColor="#595858"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/category_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:overlapAnchor="false"
+            android:spinnerMode="dropdown"
+            android:drawSelectorOnTop="true"
+            android:textColor="#595858" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/download_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/format"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="Format"
+            android:textColor="#595858"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Title_formate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="CSV"
+            android:textColor="#595858"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/export_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:backgroundTint="@color/skyblue"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Export"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

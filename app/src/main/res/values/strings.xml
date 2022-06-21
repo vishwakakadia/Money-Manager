@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">IncomeExpense</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_drawer_open">Open Navigation Drawer </string>
+    <string name="nav_drawer_close">Close Navigation Drawer </string>
+    <string-array name="Category">
+        <item>Health</item>
+        <item>Groceries</item>
+        <item>Shopping</item>
+        <item>Tax</item>
+        <item>Bill</item>
+        <item>self care</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="IncomeCategory">
+        <item>Coupons</item>
+        <item>Deposits</item>
+        <item>Grants</item>
+        <item>Salary</item>
+        <item>others</item>
+        <item>Saving</item>
+    </string-array>
+
+    <string-array name="monthSelect">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="dailogSelect">
+        <item>income</item>
+        <item>expense</item>
+    </string-array>
+
+    <string-array name="yearAnalysis">
+        <item>income</item>
+        <item>expense</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="reminder_string">
+        <item>income</item>
+        <item>expense</item>
+
+    </string-array>
+
+    <string-array name="formateSelect">
+        <item>PDF</item>
+        <item>XLS</item>
+        <item>CSV</item>
+    </string-array>
+</resources>
